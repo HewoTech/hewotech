@@ -22,7 +22,7 @@ It showcases our services, portfolio, booking process, and contact options, maki
 
 ## 🚀 How to Use  
 🔗 **Live Site:** https://hewotech.github.io/hewotech  
-(Replace with your actual GitHub Pages URL after publishing)  
+  
 
 Navigate through the menu to explore **services, portfolio, booking, and contact pages**.  
 Use the **Booking Page** to request a project or course, and reach us directly through the **Contact Page**.  
