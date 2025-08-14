@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HEWO TECH - IT projects, online courses, and coding solutions. We offer Java, Python, Flutter, and Machine Learning projects for students across India with real-time, hands-on learning and support for students, businesses, and professionals.">
+    <meta name="keywords" content="HEWO TECH, IT projects, online courses, coding, Java, Python, Flutter, ML, project center, India, students">
+    <meta name="author" content="HEWO TECH">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="HEWO TECH - IT Projects & Online Courses">
+    <meta property="og:description" content="Real-time IT projects, online courses, and coding solutions for students and businesses across India.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hewotech.com/">
+    <meta property="og:image" content="https://hewotech.com/images/hewotech-og-image.jpg">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HEWO TECH - IT Projects & Online Courses">
+    <meta name="twitter:description" content="Learn and build real-time IT projects with Java, Python, Flutter, and Machine Learning.">
+    <meta name="twitter:image" content="https://hewotech.com/images/hewotech-og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS (Optional if using Tailwind) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: url('images/tech-pattern-bg.png') repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color: #1a1a1a;
+        }
+    </style>
+
+    <!-- Title -->
+    <title>HEWO TECH - IT Projects & Online Courses</title>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+<!-- HEADER -->
+<header class="bg-blue-900 text-white fixed top-0 left-0 w-full z-50 shadow-lg">
+  <div class="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
+    <div class="flex items-center">
+      <img src="images/hewo-tech-logo.png" alt="HEWO TECH Logo" class="h-10 mr-3">
+      <h1 class="text-xl font-bold">HEWO TECH</h1>
+    </div>
+    <nav>
+      <ul class="hidden md:flex space-x-6 font-semibold">
+        <li><a href="index.html" class="hover:text-yellow-400">Home</a></li>
+        <li><a href="services.html" class="hover:text-yellow-400">Services</a></li>
+        <li><a href="portfolio.html" class="hover:text-yellow-400">Portfolio</a></li>
+        <li><a href="booking.html" class="hover:text-yellow-400 text-yellow-400">Book Now</a></li>
+        <li><a href="about.html" class="hover:text-yellow-400">About</a></li>
+        <li><a href="contact.html" class="hover:text-yellow-400">Contact & Arakathir</a></li>
+      </ul>
+      <div class="md:hidden text-2xl cursor-pointer" id="menu-toggle">&#9776;</div>
+    </nav>
+  </div>
+  <ul id="mobile-menu" class="hidden flex-col bg-blue-800 px-4 py-2 space-y-2 md:hidden">
+    <li><a href="index.html" class="hover:text-yellow-400">Home</a></li>
+    <li><a href="services.html" class="block hover:text-yellow-400">Services</a></li>
+    <li><a href="portfolio.html" class="block hover:text-yellow-400">Portfolio</a></li>
+    <li><a href="booking.html" class="hover:text-yellow-400 text-yellow-400">Book Now</a></li>
+    <li><a href="about.html" class="block hover:text-yellow-400">About</a></li>
+    <li><a href="contact.html" class="block hover:text-yellow-400">Contact</a></li>
+  </ul>
+</header>
+
+<!-- Add top padding so content doesn't hide behind navbar -->
+<div class="pt-20"></div>
+
+<!-- BOOKING FORM -->
+<section class="max-w-3xl mx-auto p-8 bg-white mt-12 rounded-2xl shadow-lg border border-gray-100">
+    <h2 class="text-3xl font-bold mb-3 text-center text-blue-700">Book Your Project or Website</h2>
+    <p class="text-gray-600 text-center mb-8">Fill in your details and we’ll respond within <span class="font-semibold">24 hours</span>.</p>
+
+    <form id="booking-form" action="https://formsubmit.co/ajax/69251ed360ee0b08d2c57d805a768933" method="POST" class="space-y-5">
+        <!-- Hidden fields for Formsubmit -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
+        <input type="text" name="name" placeholder="Full Name" required 
+               class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+        <input type="email" name="email" placeholder="Email Address" required 
+               class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+        <input type="tel" name="phone" placeholder="Phone Number" required 
+               class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+        <select name="project" required
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <option value="">Select Project Type</option>
+            <option value="college">College Project</option>
+            <option value="website">Website for Business</option>
+            <option value="custom">Custom Development</option>
+        </select>
+
+        <textarea name="details" rows="4" placeholder="Project Details" 
+                  class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+        <button type="submit" 
+                class="w-full bg-blue-600 text-white p-3 rounded-lg font-semibold shadow-md hover:bg-blue-700 transition duration-300">
+            Submit Booking
+        </button>
+    </form>
+
+    <!-- Success Message -->
+<div id="success-message" class="hidden mt-6 bg-green-50 border border-green-300 text-green-700 rounded-lg p-4 shadow-md text-center">
+    <p class="text-lg font-bold">🎉 Booking Request Sent!</p>
+    <p class="mt-1">Thank you for choosing <span class="font-semibold text-green-800">HEWO TECH</span>! 💻</p>
+    <p class="mt-1">Our team will review your details and contact you within <span class="font-semibold">24 hours</span> 📞.</p>
+    <p class="mt-1 text-sm text-green-600 italic">Meanwhile, feel free to explore our website for more services and offers.</p>
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-800 text-white text-center p-4 mt-10">
+    <p>© 2025 HEWO TECH. All Rights Reserved.</p>
+    <p>Email: hewotech2025@gmail.com | Phone: +91-8531046561</p>
+</footer>
+
+<!-- JavaScript to handle form submission -->
+<script>
+document.getElementById("booking-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Stop normal form submit
+    
+    fetch(this.action, {
+        method: "POST",
+        body: new FormData(this),
+        headers: { 'Accept': 'application/json' }
+    })
+    .then(response => {
+        if (response.ok) {
+            this.reset(); // Clear form
+            document.getElementById("success-message").classList.remove("hidden"); // Show success message
+        } else {
+            alert("Oops! Something went wrong.");
+        }
+    })
+    .catch(error => {
+        alert("Error: " + error.message);
+    });
+});
+
+
+
+    document.getElementById("menu-toggle").addEventListener("click", () => {
+      document.getElementById("mobile-menu").classList.toggle("hidden");
+    });
+ </script> 
+
+</body>
+</html>

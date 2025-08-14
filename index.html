@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Setup -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Page Title -->
+  <title>HEWO TECH - Project Booking & Development Services</title>
+
+  <!-- Description & Keywords -->
+  <meta name="description" content="HEWO TECH offers fast, affordable, and professional solutions for students, entrepreneurs, and businesses — from academic projects to full websites and mobile apps.">
+  <meta name="keywords" content="HEWO TECH, project booking, website development, academic projects, mobile apps, business websites, custom software">
+  <meta name="author" content="HEWO TECH">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:title" content="HEWO TECH - Project Booking & Development Services">
+  <meta property="og:description" content="Fast, affordable, and professional solutions for students, entrepreneurs, and businesses. Websites, apps, and academic projects with 24/7 support.">
+  <meta property="og:image" content="https://hewotech.github.io/hewotech/images/hewotech-preview.jpg">
+  <meta property="og:url" content="https://hewotech.github.io/hewotech/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HEWO TECH - Project Booking & Development Services">
+  <meta name="twitter:description" content="Fast, affordable, and professional solutions for students, entrepreneurs, and businesses. Websites, apps, and academic projects with 24/7 support.">
+  <meta name="twitter:image" content="https://hewotech.github.io/hewotech/images/hewotech-preview.jpg">
+
+  <!-- Canonical Link -->
+  <link rel="canonical" href="https://hewotech.github.io/hewotech/">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts (Optional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+
+  <!-- HEADER -->
+<header class="bg-blue-900 text-white fixed top-0 left-0 w-full z-50 shadow-lg">
+  <div class="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
+    <div class="flex items-center">
+      <img src="images/hewo-tech-logo.png" alt="HEWO TECH Logo" class="h-10 mr-3">
+      <h1 class="text-xl font-bold">HEWO TECH</h1>
+    </div>
+    <nav>
+      <ul class="hidden md:flex space-x-6 font-semibold">
+        <li><a href="index.html" class="hover:text-yellow-400 text-yellow-400">Home</a></li>
+        <li><a href="services.html" class="hover:text-yellow-400">Services</a></li>
+        <li><a href="portfolio.html" class="hover:text-yellow-400">Portfolio</a></li>
+        <li><a href="booking.html" class="hover:text-yellow-400">Book Now</a></li>
+        <li><a href="about.html" class="hover:text-yellow-400">About</a></li>
+        <li><a href="contact.html" class="hover:text-yellow-400">Contact & Arakathir</a></li>
+      </ul>
+      <div class="md:hidden text-2xl cursor-pointer" id="menu-toggle">&#9776;</div>
+    </nav>
+  </div>
+  <ul id="mobile-menu" class="hidden flex-col bg-blue-800 px-4 py-2 space-y-2 md:hidden">
+    <li><a href="index.html" class="block hover:text-yellow-400 text-yellow-400">Home</a></li>
+    <li><a href="services.html" class="block hover:text-yellow-400">Services</a></li>
+    <li><a href="portfolio.html" class="block hover:text-yellow-400">Portfolio</a></li>
+    <li><a href="booking.html" class="block hover:text-yellow-400">Book Now</a></li>
+    <li><a href="about.html" class="block hover:text-yellow-400">About</a></li>
+    <li><a href="contact.html" class="block hover:text-yellow-400">Contact</a></li>
+  </ul>
+</header>
+
+<!-- Add top padding so content doesn't hide behind navbar -->
+<div class="pt-20"></div>
+
+  <!-- HERO -->
+  <section class="relative bg-cover bg-center py-20 text-white" style="background-image: url('images/project-background.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div> <!-- Dark overlay -->
+    <div class="relative max-w-4xl mx-auto text-center px-6">
+        <h2 class="text-4xl font-bold mb-4">Get Your Project or Website Done</h2>
+        <p class="text-lg mb-6">Fast, Affordable & Professional Solutions for Students, Entrepreneurs, and Businesses.</p>
+        <ul class="text-left max-w-lg mx-auto space-y-2">
+            <li>✔ Final year & mini projects with documentation</li>
+            <li>✔ Custom web & mobile applications</li>
+            <li>✔ 24/7 customer support</li>
+        </ul>
+        <a href="booking.html" class="mt-6 inline-block bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-yellow-400 transition">
+            Book Now
+        </a>
+    </div>
+</section>
+
+
+  <!-- SERVICES PREVIEW -->
+  <section class="max-w-6xl mx-auto px-4 py-12">
+    <h3 class="text-2xl font-bold text-center text-blue-900 mb-8">Our Main Services</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+        <h4 class="text-lg font-semibold mb-2">College Projects</h4>
+        <p class="text-gray-600">We deliver complete academic projects with source code, reports, and slides.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+        <h4 class="text-lg font-semibold mb-2">Websites for Clients</h4>
+        <p class="text-gray-600">Modern, mobile-friendly websites with domain, hosting, and SEO setup.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg">
+        <h4 class="text-lg font-semibold mb-2">Custom Development</h4>
+        <p class="text-gray-600">Tailored web & mobile solutions using the latest technologies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="bg-gray-100 py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center text-blue-900 mb-8">Why Choose HEWO TECH?</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="text-lg font-semibold mb-2">Experienced Team</h4>
+          <p class="text-gray-600">Our developers have years of experience in academic & commercial projects.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="text-lg font-semibold mb-2">Affordable Pricing</h4>
+          <p class="text-gray-600">Top-quality services without breaking your budget.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="text-lg font-semibold mb-2">On-Time Delivery</h4>
+          <p class="text-gray-600">We value deadlines and ensure prompt delivery.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO PREVIEW -->
+  <section class="max-w-6xl mx-auto px-4 py-12">
+    <h3 class="text-2xl font-bold text-center text-blue-900 mb-8">Recent Work</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div>
+        <img src="images/e-commerse-website.jpg" alt="Project 1" class="rounded-lg shadow">
+        <p class="mt-2 text-gray-700 text-center">E-commerce Website</p>
+      </div>
+      <div>
+        <img src="images/college-projects.jpg" alt="Project 2" class="rounded-lg shadow">
+        <p class="mt-2 text-gray-700 text-center">College Projects</p>
+      </div>
+      <div>
+        <img src="images/portfolio-website.jpg" alt="Project 3" class="rounded-lg shadow">
+        <p class="mt-2 text-gray-700 text-center">Business Portfolio</p>
+      </div>
+    </div>
+    <div class="text-center mt-6">
+      <a href="portfolio.html" class="bg-blue-900 text-white px-6 py-2 rounded-lg hover:bg-blue-800">View All Projects</a>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="bg-gray-100 py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center text-blue-900 mb-8">What Our Clients Say</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p>"HEWO TECH helped me finish my final year project within a week. Highly recommended!"</p>
+          <h5 class="mt-3 font-semibold">- Arun, B.E. CSE</h5>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p>"Our business website looks stunning and works perfectly on mobile. Great service!"</p>
+          <h5 class="mt-3 font-semibold">- Kavitha, Entrepreneur</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="text-center py-12 bg-white">
+    <h3 class="text-2xl font-bold text-blue-900">Ready to Start Your Project?</h3>
+    <p class="mt-2 text-gray-600">Book now and get a free consultation from our experts.</p>
+    <a href="booking.html" class="mt-4 inline-block bg-blue-900 text-white px-6 py-2 rounded-lg hover:bg-blue-800">Book Now</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-900 text-white text-center py-4">
+    <p>© 2025 HEWO TECH. All Rights Reserved.</p>
+    <p>Email: hewotech2025@gmail.com | Phone: +91-8531046561</p>
+  </footer>
+
+  <script>
+    document.getElementById("menu-toggle").addEventListener("click", () => {
+      document.getElementById("mobile-menu").classList.toggle("hidden");
+    });
+  </script>
+
+</body>
+</html>
