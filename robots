@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hewotech.github.io/hewotech/sitemap.xml
